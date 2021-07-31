@@ -4,7 +4,7 @@ body {
     color: seashell;
     background-color: black;
     opacity: 0.9;
-    margin: 0;
+    margin: auto;
     padding: 0;
 }
 
@@ -16,6 +16,7 @@ body {
     border-bottom: 1px solid seashell;
     position: fixed;
     width: 100%;
+    z-index: 1;
     background-color: black;
 }
 
@@ -54,4 +55,65 @@ body {
     text-align: center;
     width: 1200px;
     text-emphasis: bold;
+}
+
+.tea-of-month {
+    position: relative;
+    text-align: center;
+    top: 70px;
+    text-emphasis: bold;
+}
+
+.tea-of-month h4 {
+    padding-bottom: 60px;
+}
+
+.tea-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    width: 1200px;
+    padding-bottom: 70px;
+}
+
+.tea-gallery img {
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+}
+
+.location-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    height: 500px;
+    width: 1200px;
+    background-image: url(/resources/images/img-locations-background.webp);
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    
+}
+
+.card-container {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card {
+    text-align: center;
+    background-color: black;
+    width: 300px;
+    opacity: 1;
+    padding: 10px;
+}
+
+.location-header {
+    width: 100%;
+    text-align: center;
+    margin: 15px auto;
 }
