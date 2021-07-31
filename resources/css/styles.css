@@ -78,9 +78,13 @@ body {
 }
 
 .tea-gallery img {
-  padding: 10px;
+  padding-bottom: 10px;
   height: 200px;
   width: 300px;
+}
+
+figcaption {
+  text-align: center;
 }
 
 .location-container {
