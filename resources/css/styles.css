@@ -4,4 +4,29 @@ body {
     color: seashell;
     background-color: black;
     opacity: 0.9;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    border-bottom: 1px solid seashell;
+}
+
+.nav-links {
+    display: inline-flex;
+    align-items: center;
+}
+
+.nav-item {
+    text-decoration: underline;
+    padding: 10px;
+}
+
+.teaCozy {
+    height: 50px;
+    margin-left: 10px;
 }
