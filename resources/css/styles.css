@@ -1,119 +1,127 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
-    color: seashell;
-    background-color: black;
-    opacity: 0.9;
-    margin: auto;
-    padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: auto;
+  padding: 0;
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    border-bottom: 1px solid seashell;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-    background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: black;
 }
 
 .nav-links {
-    display: inline-flex;
-    align-items: center;
+  display: inline-flex;
+  align-items: center;
 }
 
 .nav-item {
-    text-decoration: underline;
-    padding: 10px;
-    color: seashell;
+  text-decoration: underline;
+  padding: 10px;
+  color: seashell;
 }
 
 .teaCozy {
-    height: 50px;
-    margin-left: 10px;
+  height: 50px;
+  margin-left: 10px;
 }
 
 .mission {
-    display: flex;
-    position: relative;
-    top: 70px;
-    height: 700px;
-    width: 1200px;
-    background-image: url(/resources/images/img-mission-background.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    align-items: center;
-    margin: auto;
+  display: flex;
+  position: relative;
+  top: 70px;
+  height: 700px;
+  width: 1200px;
+  background-image: url(/resources/images/img-mission-background.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  margin: auto;
 }
 
 .mission-statement {
-    background-color: black;
-    text-align: center;
-    width: 1200px;
-    text-emphasis: bold;
+  background-color: black;
+  text-align: center;
+  width: 1200px;
+  text-emphasis: bold;
 }
 
 .tea-of-month {
-    position: relative;
-    text-align: center;
-    top: 70px;
-    text-emphasis: bold;
+  position: relative;
+  text-align: center;
+  top: 70px;
+  text-emphasis: bold;
 }
 
 .tea-of-month h4 {
-    padding-bottom: 60px;
+  padding-bottom: 60px;
 }
 
 .tea-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-    justify-content: center;
-    width: 1200px;
-    padding-bottom: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+  width: 1200px;
+  padding-bottom: 70px;
 }
 
 .tea-gallery img {
-    padding: 10px;
-    height: 200px;
-    width: 300px;
+  padding: 10px;
+  height: 200px;
+  width: 300px;
 }
 
 .location-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-content: center;
-    height: 500px;
-    width: 1200px;
-    background-image: url(/resources/images/img-locations-background.webp);
-    background-position: center;
-    background-size: cover;
-    margin: auto;
-    
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  height: 500px;
+  width: 1200px;
+  background-image: url(/resources/images/img-locations-background.webp);
+  background-position: center;
+  background-size: cover;
+  margin: auto;
 }
 
 .card-container {
-    display: inline-flex;
-    width: 100%;
-    justify-content: space-evenly;
-    align-items: center;
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .card {
-    text-align: center;
-    background-color: black;
-    width: 300px;
-    opacity: 1;
-    padding: 10px;
+  text-align: center;
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+  padding: 10px;
 }
 
 .location-header {
-    width: 100%;
-    text-align: center;
-    margin: 15px auto;
+  width: 100%;
+  text-align: center;
+}
+
+.tea-footer {
+  height: 200px;
+  text-align: center;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
 }
